@@ -7,7 +7,6 @@
 
 를 제공하는 Flutter + FastAPI + Ollama 기반 서비스의 **MVP 백엔드 코드**입니다.
 
-## Backend (FastAPI)
 
 
 
