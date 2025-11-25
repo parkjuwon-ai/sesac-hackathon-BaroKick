@@ -68,4 +68,3 @@ async def analyze_contract(file: UploadFile = File(...)):
             TimelineDate(label="청약철회마감(예시)", value="2025-01-08"),
         ],
     )
-
