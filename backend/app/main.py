@@ -1,9 +1,18 @@
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, UploadFile, File
 from pydantic import BaseModel
 from typing import List, Literal
 import uuid
 
 app = FastAPI(title="SafeSign / BaroKick MVP API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 개발/해커톤용: 전체 허용
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class RiskAction(BaseModel):

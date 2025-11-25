@@ -7,3 +7,11 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Flutter / Dart
+frontend/barokick_web/build/
+frontend/barokick_web/.dart_tool/
+frontend/barokick_web/.idea/
+frontend/barokick_web/.vscode/
+frontend/barokick_web/.flutter-plugins
+frontend/barokick_web/.flutter-plugins-dependencies
